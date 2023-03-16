@@ -14,6 +14,6 @@ public class Ready extends ListenerAdapter {
 
         assert guildId != null;
 
-        Objects.requireNonNull(guildId.getTextChannelById("1067989957760778311")).getManager().setTopic("Atualmente estamos com " + guildId.getMemberCount() + "membros no servidor!").queue();
+        Objects.requireNonNull(guildId.getTextChannelById("1067989957760778311")).getManager().setTopic("Atualmente estamos com " + guildId.getMemberCount() + " membros no servidor!").queue();
     }
 }
